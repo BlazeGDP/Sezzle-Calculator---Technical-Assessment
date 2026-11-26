@@ -1,0 +1,18 @@
+# Dependencies and generated files
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+backend/coverage.out
+backend/server
+backend/server.exe
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+backend/coverage.html
+frontend/frontend-test-coverage.txt
