@@ -1,0 +1,11 @@
+calculator/cmd/server/main.go:16:			main			0.0%
+calculator/cmd/server/main.go:22:			run			0.0%
+calculator/internal/calculator/calculator.go:15:	Error			100.0%
+calculator/internal/calculator/calculator.go:19:	Calculate		100.0%
+calculator/internal/httpapi/handler.go:35:		New			100.0%
+calculator/internal/httpapi/handler.go:52:		health			100.0%
+calculator/internal/httpapi/handler.go:61:		calculate		94.6%
+calculator/internal/httpapi/handler.go:111:		writeDecodeError	100.0%
+calculator/internal/httpapi/handler.go:120:		writeError		100.0%
+calculator/internal/httpapi/handler.go:124:		writeJSON		100.0%
+total:							(statements)		79.2%

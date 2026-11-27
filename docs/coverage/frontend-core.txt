@@ -1,0 +1,89 @@
+
+> sezzle-calculator-frontend@1.0.0 coverage:core
+> node --experimental-strip-types --experimental-test-coverage --test-coverage-include=src/calculator.ts --test-coverage-include=src/api.ts --test tests/core.test.ts
+
+TAP version 13
+# (node:3474) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: operation definitions are unique and cover all seven operations
+ok 1 - operation definitions are unique and cover all seven operations
+  ---
+  duration_ms: 1.727079
+  type: 'test'
+  ...
+# Subtest: accepts valid decimal and scientific notation
+ok 2 - accepts valid decimal and scientific notation
+  ---
+  duration_ms: 0.50522
+  type: 'test'
+  ...
+# Subtest: rejects blank, invalid and non-finite numbers
+ok 3 - rejects blank, invalid and non-finite numbers
+  ---
+  duration_ms: 0.281153
+  type: 'test'
+  ...
+# Subtest: validates both operands for every binary operation
+ok 4 - validates both operands for every binary operation
+  ---
+  duration_ms: 1.572026
+  type: 'test'
+  ...
+# Subtest: square root sends only the first operand
+ok 5 - square root sends only the first operand
+  ---
+  duration_ms: 0.362215
+  type: 'test'
+  ...
+# Subtest: validation identifies the invalid field
+ok 6 - validation identifies the invalid field
+  ---
+  duration_ms: 0.218929
+  type: 'test'
+  ...
+# Subtest: API posts JSON and returns the server result, including zero
+ok 7 - API posts JSON and returns the server result, including zero
+  ---
+  duration_ms: 29.525817
+  type: 'test'
+  ...
+# Subtest: API reports structured server errors and fallback HTTP errors
+ok 8 - API reports structured server errors and fallback HTTP errors
+  ---
+  duration_ms: 2.299211
+  type: 'test'
+  ...
+# Subtest: API rejects malformed success responses
+ok 9 - API rejects malformed success responses
+  ---
+  duration_ms: 2.078949
+  type: 'test'
+  ...
+# Subtest: API provides actionable transport and timeout errors
+ok 10 - API provides actionable transport and timeout errors
+  ---
+  duration_ms: 0.631921
+  type: 'test'
+  ...
+(node:3468) ExperimentalWarning: glob is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 280.645958
+# start of coverage report
+# ---------------------------------------------------------------
+# file           | line % | branch % | funcs % | uncovered lines
+# ---------------------------------------------------------------
+# src            |        |          |         | 
+#  api.ts        | 100.00 |   100.00 |  100.00 | 
+#  calculator.ts | 100.00 |   100.00 |  100.00 | 
+# ---------------------------------------------------------------
+# all files      | 100.00 |   100.00 |  100.00 | 
+# ---------------------------------------------------------------
+# end of coverage report

@@ -1,0 +1,3 @@
+	calculator/cmd/server		coverage: 0.0% of statements
+ok  	calculator/internal/calculator	0.003s	coverage: 100.0% of statements
+ok  	calculator/internal/httpapi	0.004s	coverage: 96.8% of statements

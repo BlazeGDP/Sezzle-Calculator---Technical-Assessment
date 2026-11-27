@@ -1,0 +1,70 @@
+
+> sezzle-calculator-frontend@1.0.0 test:live
+> node --experimental-strip-types --test tests/live.test.ts
+
+TAP version 13
+# (node:7166) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: live health endpoint
+ok 1 - live health endpoint
+  ---
+  duration_ms: 43.22786
+  type: 'test'
+  ...
+# Subtest: live add
+ok 2 - live add
+  ---
+  duration_ms: 8.724941
+  type: 'test'
+  ...
+# Subtest: live subtract
+ok 3 - live subtract
+  ---
+  duration_ms: 3.671326
+  type: 'test'
+  ...
+# Subtest: live multiply
+ok 4 - live multiply
+  ---
+  duration_ms: 4.590038
+  type: 'test'
+  ...
+# Subtest: live divide
+ok 5 - live divide
+  ---
+  duration_ms: 4.409296
+  type: 'test'
+  ...
+# Subtest: live power
+ok 6 - live power
+  ---
+  duration_ms: 3.032333
+  type: 'test'
+  ...
+# Subtest: live sqrt
+ok 7 - live sqrt
+  ---
+  duration_ms: 2.17237
+  type: 'test'
+  ...
+# Subtest: live percentage
+ok 8 - live percentage
+  ---
+  duration_ms: 2.290238
+  type: 'test'
+  ...
+# Subtest: live errors are returned to the frontend API client
+ok 9 - live errors are returned to the frontend API client
+  ---
+  duration_ms: 12.303928
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 308.551797
